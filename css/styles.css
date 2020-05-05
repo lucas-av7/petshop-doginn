@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E0FBFC;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #293241;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.logomarca {
+    width: 180;
+    height: 56px;
+    margin-left: 20px;
+}
+
+.menuPrincipal {
+    position: absolute;
+    right: 0;
+    
+}
+
+.menuPrincipal ul li {
+    display: inline-block;
+}
+
+.menuPrincipal ul li a {
+    display: block;
+    width: 130px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #EE6C4D;
+    font-size: 22px;
+}
+
+.menuPrincipal ul li a:hover {
+    background-color: #3D5A80;
+}
