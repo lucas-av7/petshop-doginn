@@ -6,6 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #E0FBFC;
+    color: #3D5A80;
 }
 
 header {
@@ -15,7 +16,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
+    position: fixed;
+    z-index: 100;
 }
 
 .logomarca {
@@ -47,4 +49,34 @@ header {
 
 .menuPrincipal ul li a:hover {
     background-color: #3D5A80;
+}
+
+.container {
+    max-width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    position: relative;
+}
+
+.fraseEfeito {
+    font-family: 'Courgette', cursive;
+    font-size: 80px;
+}
+
+.logoDog {
+    width: 320px;
+}
+
+.fraseEfeitoInferior {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 35px;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
 }
