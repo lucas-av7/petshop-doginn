@@ -129,3 +129,28 @@ header {
     color: #E0FBFC;
 
 }
+
+.container-regras {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.container-regras {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 700px;
+}
+
+.container-regras h3 {
+    margin: 5px 0;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+li {
+    margin-left: 25px;
+}
