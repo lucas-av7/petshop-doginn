@@ -52,6 +52,7 @@ header {
     max-width: 960px;
     height: 100vh;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .container-inicio {
@@ -152,4 +153,27 @@ ul, ol {
 
 li {
     margin-left: 25px;
+}
+
+.container-galeria {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+
+}
+
+#galeria img {
+    width: 300px;
+    margin: 5px;
+    transition: transform 0.2s;
+    z-index: 1;
+}
+
+#galeria img:hover {
+    box-shadow: 0 0 8px #333;
+    transform: scale(1.25);
+    transition: transform 0.5s;
+    z-index: 2;
 }
