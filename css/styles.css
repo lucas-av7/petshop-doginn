@@ -18,7 +18,7 @@ header {
     height: 80px;
     background-color: #293241;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 100;
@@ -28,12 +28,6 @@ header {
     width: 180;
     height: 56px;
     margin-left: 20px;
-}
-
-.menuPrincipal {
-    position: absolute;
-    right: 0;
-    
 }
 
 .menuPrincipal ul li {
