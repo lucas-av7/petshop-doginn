@@ -153,10 +153,6 @@ header {
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
-}
-
-.container-regras {
-    display: flex;
     justify-content: center;
     max-width: 700px;
 }
@@ -426,8 +422,8 @@ footer a:hover {
     }
 
     .fraseEfeitoInferior {
-        font-size: 1.8em;
-        bottom: 30px;
+        font-size: 1.7em;
+        bottom: 65px;
     }
 
     .limiteFooter {
