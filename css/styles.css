@@ -58,6 +58,19 @@ header {
     background-color: #3D5A80;
 }
 
+.menuBotoes {
+    display: none;
+}
+
+#menuOpen {
+    color: #EE6C4D;
+}
+
+#menuClose {
+    display: none;
+    color: #EE6C4D;
+}
+
 .view {
     max-width: 960px;
     min-height: 100vh;
@@ -274,4 +287,88 @@ footer a:hover {
     margin: 0 auto;
     padding: 10px;
     box-sizing: border-box;
+}
+
+/* Início da responsividade */
+@media screen and (max-width: 800px) {
+    header {
+        height: 50px;
+    }
+
+    .limiteHeader {
+        flex-direction: column;
+        padding: 0;
+        height: 50px;
+    }
+
+    .logoLink {
+        height: 50px;
+        width: 100%;
+        z-index: 2;
+        background-color: #293241;
+    }
+
+    .logomarca {
+        width: 190px;
+        margin: 0 auto;
+    }
+
+    .menuPrincipal {
+        width: 100%;
+        background-color: #293241;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        transition: top 0.4s;
+    }
+
+    .menuPrincipal ul {
+        margin: 0 auto;
+        width: 452px;
+    }
+
+    .menuPrincipal ul li a {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .menuBotoes {
+        display: block;
+    }
+
+    #menuOpen {
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        z-index: 3;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        top: 0;
+        font-size: 1.6em;
+        cursor: pointer;
+        background-color: #293241;
+    }
+
+    #menuOpen:hover {
+        background-color: #3D5A80;
+    }
+
+    #menuClose {
+        position: absolute;
+        text-align: center;
+        line-height: 50px;
+        z-index: 3;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        top: 0;
+        font-size: 1.6em;
+        cursor: pointer;
+        background-color: #293241;
+    }
+
+    #menuClose:hover {
+        background-color: #3D5A80;
+    }
 }
