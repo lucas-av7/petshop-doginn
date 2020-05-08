@@ -254,7 +254,18 @@ footer a:hover {
     margin: 0 5px;
 }
 
-.limiteHeaderFooter {
+.limiteHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.limiteFooter {
     display: flex;
     justify-content: space-between;
     align-items: center;
