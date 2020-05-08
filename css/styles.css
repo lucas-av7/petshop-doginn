@@ -96,8 +96,6 @@ header {
 
 .fraseEfeitoInferior {
     text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
     font-size: 2.188em;
     position: absolute;
     bottom: 30px;
@@ -392,6 +390,55 @@ footer a:hover {
     }
 
     .copyright {
-        max-width: 400px;
+        max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .menuPrincipal ul {
+        margin: 0 auto;
+        width: 332px;
+    }
+
+    .menuPrincipal ul li a {
+        width: 80px;
+        font-size: 1.2em;
+    }
+
+    .container-inicio {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fraseEfeito {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .logoDog {
+        width: 200px;
+    }
+
+    .fraseEfeito {
+        font-family: 'Courgette', cursive;
+        font-size: 2.5em;
+    }
+
+    .fraseEfeitoInferior {
+        font-size: 1.8em;
+        bottom: 30px;
+    }
+
+    .limiteFooter {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+
+    footer {
+        height: 100px;
+        text-align: center;
     }
 }
