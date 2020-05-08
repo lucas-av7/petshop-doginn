@@ -25,9 +25,20 @@ header {
     z-index: 100;
 }
 
+.logoLink {
+    width: 266px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logoLink:hover {
+    background-color: #3D5A80;
+}
+
 .logomarca {
     width: 250;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .menuPrincipal ul li {
