@@ -240,8 +240,21 @@ footer {
     width: 100%;
     height: 70px;
     background-color: #293241;
+    color: #E0FBFC;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: -70px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: #EE6C4D;
+    text-decoration: none;
+}
+
+.redeSocial i {
+    font-size: 2.2em;
+    margin: 0 5px;
 }
