@@ -371,4 +371,28 @@ footer a:hover {
     #menuClose:hover {
         background-color: #3D5A80;
     }
+
+    .fraseEfeito {
+        font-family: 'Courgette', cursive;
+        font-size: 3em;
+    }
+    
+    .logoDog {
+        width: 250px;
+    }
+
+    .container-contato {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 10px;
+    }
+
+    .dadosContato {
+        height: auto;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
 }
