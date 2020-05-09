@@ -6,7 +6,7 @@ botaoOpen.addEventListener('click', abrirMenu);
 botaoClose.addEventListener('click', fecharMenu);
 
 function abrirMenu() {
-    menu.style.top = '50px';
+    menu.style.top = '60px';
     botaoOpen.style.display = 'none';
     botaoClose.style.display = 'inline-block';
 }
