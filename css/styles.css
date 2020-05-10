@@ -33,6 +33,10 @@ header {
     background-color: #3D5A80;
 }
 
+.logoLink:active, ul li a:active {
+        -webkit-tap-highlight-color: rgba(0,0,0,0); /* remove a caixa de destaque quando o link é clicado no mobile */
+}
+
 .logomarca {
     width: 250;
     padding: 10px;
