@@ -203,11 +203,12 @@ header {
 .dadosContato {
     width: 48%;
     min-width: 340px;
-    height: 350px;
+    height: 300px;
     display: flex;
     flex-flow: wrap column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .dadosContato h2 {
@@ -225,13 +226,14 @@ header {
     width: 35%;
     min-width: 340px;
     border: 1px solid #293241;
-    height: 350px;
+    height: 300px;
+    margin-bottom: 50px;
 }
 
 .mapaGoogle {
     width: 100%;
     min-width: 340px;
-    height: 350px;
+    height: 300px;
     
 }
 
