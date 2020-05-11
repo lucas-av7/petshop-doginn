@@ -86,16 +86,19 @@ header {
 .container-inicio {
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
 }
 
 .fraseEfeito {
     font-family: 'Courgette', cursive;
     font-size: 5em;
+    max-width: 650px;
 }
 
 .logoDog {
     width: 320px;
+    min-width: 200px;
 }
 
 .fraseEfeitoInferior {
