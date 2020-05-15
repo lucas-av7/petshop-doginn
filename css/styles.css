@@ -178,27 +178,58 @@ header {
     margin-left: 25px;
 }
 
-.container-galeria {
+.galeriaPadrao {
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#galeria img {
+.galeriaPadrao img {
     width: 300px;
     margin: 5px;
     transition: transform 0.2s;
     z-index: 1;
 }
 
-#galeria img:hover {
+.galeriaPadrao img:hover {
     box-shadow: 0 0 8px #333;
     transform: scale(1.25);
     transition: transform 0.5s;
     z-index: 2;
 }
 
+.galeriaMobile {
+    display: none;
+    width: 90%;
+    max-width: 450px;
+}
+
+.galeriaMobile img {
+    width: 100%;
+}
+
+.navGaleria {
+    width: 100%;
+    height: 60px;
+    background-color: #293241;
+    display: flex;
+    align-items: center;
+}
+
+.navGaleria i {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: #EE6C4D;
+    cursor: pointer;
+    line-height: 60px;
+}
+
+#esqMenu {
+    color: #666;;
+}
 .container-contato {
     padding-top: 50px;
     display: flex;
@@ -407,6 +438,25 @@ footer a:hover {
 
     .copyright {
         max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .galeriaMobile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .galeriaPadrao {
+        display: none;
+    }
+
+    #galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
