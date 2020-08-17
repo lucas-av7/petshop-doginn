@@ -23,7 +23,7 @@ let imgFull = document.querySelector('.imgFull');
 let setaDir = document.getElementById('dirMenu');
 let setaEsq = document.getElementById('esqMenu');
 
-let qtdFotos2 = 24;
+let qtdFotos2 = 30;
 let fotoAtual  = 1;
 
 setaDir.addEventListener('click', mudarFoto);
@@ -66,3 +66,16 @@ function mudarFoto(e) {
     }
     
 }
+
+function listarFotos() {
+    const galeria = document.querySelector('.galeriaPadrao')
+    console.log(galeria)
+    for(let i = 1; i <= qtdFotos2; i++) {
+        let img = document.createElement('img')
+        img.setAttribute('src', 'img/galeria/foto' + i + '.jpg')
+        img.setAttribute('alt', 'Foto ' + i)
+        galeria.appendChild(img)
+    }
+}
+
+listarFotos()
