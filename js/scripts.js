@@ -23,7 +23,7 @@ let imgFull = document.querySelector('.imgFull');
 let setaDir = document.getElementById('dirMenu');
 let setaEsq = document.getElementById('esqMenu');
 
-let qtdFotos2 = 30;
+let qtdFotos2 = 50;
 let fotoAtual  = 1;
 
 setaDir.addEventListener('click', mudarFoto);
